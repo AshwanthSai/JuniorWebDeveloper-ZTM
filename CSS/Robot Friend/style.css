@@ -3,7 +3,15 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 }
 
-.robots {
+.robotBody {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lower_body{
+	display: flex;
+	justify-content: left;
 }
 
 .head, 
@@ -13,6 +21,7 @@ h1 {
 .left_leg, 
 .right_leg {
 	 background-color: #5f93e8;
+	 align-items: baseline;
 }
 
 .head { 
