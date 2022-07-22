@@ -9,6 +9,9 @@ body {
     align-items: start;
 }
 
+.green {
+    padding: 0; margin: 0;
+}
 
 .zone {
     padding:30px 50px;
